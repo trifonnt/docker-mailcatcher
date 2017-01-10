@@ -1,6 +1,6 @@
-FROM alpine
+FROM alpine:3.4
 
-MAINTAINER Daniel STANCU <birkof@birkof.ro>
+MAINTAINER Trifon Trifonov <trifonnt@users.sourceforge.net>
 
 RUN apk add --no-cache ruby ruby-bigdecimal sqlite-libs libstdc++ ca-certificates
 
